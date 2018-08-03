@@ -134,6 +134,11 @@ span.blueDot{
   padding: 0 5px;
 }
 
+.reload{
+    display: flex;
+    justify-content: center;
+}
+
 
 /* media ---------->*/
 
