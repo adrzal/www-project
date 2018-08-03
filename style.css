@@ -1,0 +1,152 @@
+.wrapNav{
+  background: #333;
+}
+
+.mainNav{
+  
+  
+  color: white;
+}
+
+.mediaNav{
+  display: flex;
+  align-items: center;
+  justify-content: flex-end;
+}
+
+.mediaNav span{
+  display: inline-block;
+  padding: 0 5px;
+}
+
+.borderX{
+  width: 100%;
+  
+  border-bottom: 1px solid black;
+}
+
+.logo, .reload{
+  display: flex;
+  justify-content: center;
+  align-items: baseline;
+  
+  font-size: 16px;
+  
+  margin-top: 30px;
+}
+
+.blueDot{
+  color: #4ec6f8;
+}
+
+.bigL{
+  font-size: 40px;
+}
+
+.infonav{
+  margin-top: 30px;
+}
+
+.navbar{
+  margin-top: 0;
+  margin-bottom: 0;
+  padding-top: 0;
+  padding-bottom: 0;
+  
+  justify-content: space-around;
+}
+
+.link{
+  font-weight: bold;
+  
+  padding: 10px 5px;
+}
+
+.link.active{
+  color: #4ec6f8;
+  
+  border-bottom: 4px solid #4ec6f8;
+}
+
+.wrapper{
+  width: 90%;
+}
+
+.row{
+  width: 90%;
+  
+  margin-left: 5%;
+}
+
+.header{
+  display: flex;
+  justify-content: flex-start;
+}
+
+.thumbnails{
+  display: flex;
+  justify-content: space-between;
+  
+  margin: 20px auto;
+}
+
+.some img{
+  height: 200px;
+  width: 100%;
+}
+
+.bolded{
+  font-weight: bold;
+}
+
+.info{
+  font-size: 12px;
+  
+  padding-right: 7px;
+}
+
+.reload{
+  font-size: 30px;
+  
+  color: #bbb;
+}
+
+.footerWrapper{
+  background: #333;
+  
+  margin-top: 30px;
+}
+
+.footer{
+  color: white;
+  
+  font-size: 10px;
+  
+  padding: 10px 0;
+}
+
+.linkCopy{
+  justify-content: center;
+  display: flex;
+}
+
+span.blueDot{
+  padding: 0 5px;
+}
+
+
+/* media ---------->*/
+
+@media (max-width: 767px){
+  
+  .mediaNav{
+    justify-content: center;
+    
+    padding-bottom: 10px;
+  }
+  
+  .wrapper{
+    width: 100%;
+  }
+  
+}
